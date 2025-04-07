@@ -1,0 +1,18 @@
+*.js
+!jest.config.js
+!lib/constructs/code-assets/*.js
+!lib/constructs/code-assets/*/*.js
+*.d.ts
+node_modules
+.idea/*
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+.DS_Store
+*/.DS_Store
+
+
+lib/constructs/code-assets/dotnet/asset-output
+lib/constructs/code-assets/dotnet/.idea

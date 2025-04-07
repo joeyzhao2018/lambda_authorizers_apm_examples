@@ -1,0 +1,27 @@
+{
+  "name": "lambda_authorizer_examples",
+  "version": "0.1.0",
+  "bin": {
+    "lambda_authorizer_examples": "bin/lambda_authorizer_examples.js"
+  },
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk",
+    "deploy": "npm run build && cdk deploy"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "20.12.7",
+    "aws-cdk": "2.143.0",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.4.5"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-lambda-python-alpha": "^2.123.0-alpha.0",
+    "aws-cdk-lib": "2.143.0",
+    "constructs": "^10.0.0",
+    "datadog-cdk-constructs-v2": "^1.15.0",
+    "source-map-support": "^0.5.21"
+  }
+}

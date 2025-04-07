@@ -1,2 +1,4 @@
-# lambda_authorizers_apm_examples
-APM Tracing AWS Lambda Authorizers
+# to deploy
+MY_ACCOUNT=012345678901 DD_APPLICATION_KEY=xxx DD_API_KEY=xxx npm run deploy
+
+
